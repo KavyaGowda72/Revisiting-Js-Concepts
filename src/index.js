@@ -68,3 +68,5 @@ alert(weight) //52 , since weight is undefined the 52 assigned to weight
 
 
 
+
+
