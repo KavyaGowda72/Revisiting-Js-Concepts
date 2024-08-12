@@ -3,29 +3,29 @@
 
 // ex:
 
-// outer:for(let i=0;i<3;i++){
-//     for(let j=0;j<3;j++){
+outer:for(let i=0;i<3;i++){
+    for(let j=0;j<3;j++){
 
-//         if(i==2) break outer
-//         console.log(`The Coordinates are : ${i} ${j}`)
-//     }
-// }
+        if(i==2) break outer
+        console.log(`The Coordinates are : ${i} ${j}`)
+    }
+}
 
 
 //For Loop:
-// for(let i=2;i<=20;i++){
-//     if(i%2==0){
-//         console.log(i)
-//     }
-// }
+for(let i=2;i<=20;i++){
+    if(i%2==0){
+        console.log(i)
+    }
+}
 
 //while Loop
 
-// let i=0;
-// while(i<3){
-//     console.log(i)
-//     i++;
-// }
+let i=0;
+while(i<3){
+    console.log(i)
+    i++;
+}
 
 
 //Task:
@@ -52,11 +52,11 @@
 
 // Here we can assume that the visitor only inputs numbers. There’s no need to implement a special handling for a non-numeric input in this task.
 
-// let input;
-// do{
-//    input = prompt('enter a number greater than 100',0)
+let input;
+do{
+   input = prompt('enter a number greater than 100',0)
 
-// }while(input<=100 && input)
+}while(input<=100 && input)
 
 
 
